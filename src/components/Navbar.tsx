@@ -1,9 +1,11 @@
 "use client"
-import Link from 'next/link'
+
+import Image from 'next/image'
 import NavLink from './NavLink'
 import { useState } from 'react'
 import { Bars3Icon, XMarkIcon, CommandLineIcon, PhoneIcon, InformationCircleIcon } from "@heroicons/react/24/solid"
-import MenuOverlay from './MenuOverlay' 
+import MenuOverlay from './MenuOverlay'
+
 
 const navLinks = [
     {
@@ -25,12 +27,11 @@ const navLinks = [
 
 const Navbar = () => {
     const [navBarOpen,setNavBarOpen] = useState(false)
+
   return (
     <nav className='fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90'>
-        <div className='p-4 sm:p-8 flex flex-wrap items-center justify-between mx-auto'>
-            <Link href={"/"} className='text-2xl text-white font-semibold sm:text-5xl'>
-                LOGO
-            </Link>
+        <div className='flex flex-wrap items-center justify-between mx-auto'>
+            <Image src="/logo.svg" alt="logo" width={150} height={150} className='text-2xl text-white font-semibold sm:text-5xl'/>
             <div className='mobilemenu block md:hidden'>
                 {
                     !navBarOpen ? (
