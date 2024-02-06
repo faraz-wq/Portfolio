@@ -27,7 +27,7 @@ const HeroSection = () => {
                         "Systems Designer",
                         1000,
                         ]}
-                        wrapper="span"
+                        wrapper="div"
                         speed={50}
                         repeat={Infinity}
                     />

@@ -70,7 +70,7 @@ const AboutSection = () => {
     };
 
   return (
-    <section className='text-white mt-10 sm:mt-0'>
+    <section className='text-white mt-10 sm:mt-0 z-0'>
         <div className='md:grid md:grid-cols-2 gap-8 items-start py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
             <Image 
                 src="/aboutsection.jpg" 

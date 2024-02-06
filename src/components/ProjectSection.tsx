@@ -11,18 +11,54 @@ const projectsData = [
       description: "Project 1 description",
       image: "/projects/1.png",
       tag: ["All", "Web"],
-      gitUrl: "/",
+      gitUrl: "https://github.com/M1sm4tch/Portfolio",
       previewUrl: "/",
     },
     {
       id:2,
-      title:"Osteoarthritis Detection with CNN",
-      description:"A cnn algorithm trained to detect signs of deneration in joint tissues.",
-      image:"/projects/1.png",
-      tag: ["All", "Artificial Intelligence"],
-      gitUrl: '/',
+      title:"HippoCons",
+      description:"A digital marketplace for icons and UI kits.",
+      image:"/projects/2.png",
+      tag: ["All", "Web"],
+      gitUrl: 'https://github.com/M1sm4tch/Hippocons',
+      previewUrl:'hippocons.up.railway.app'
+    },
+    {
+      id:3,
+      title:"Library Management",
+      description:"A library management system complete with database integration and ORM.",
+      image:"/projects/3.png",
+      tag: ["All", "Web"],
+      gitUrl: 'https://github.com/M1sm4tch/library-management',
       previewUrl:'/'
-    }
+    },
+    {
+      id:4,
+      title:"Amazon Clone",
+      description:"Ecommerce website with functional cart, built on vanilla js.",
+      image:"/projects/4.png",
+      tag: ["All", "Web"],
+      gitUrl: 'https://github.com/M1sm4tch/javascript-amazon-project',
+      previewUrl:'https://amazon-fr0nt.netlify.app/amazon.html'
+    },
+    {
+      id:5,
+      title:"Notes App",
+      description:"A notes manager with text editing, supports markdown language.",
+      image:"/projects/5.png",
+      tag: ["All", "Web"],
+      gitUrl: 'https://github.com/M1sm4tch/NotesApp',
+      previewUrl:'/'
+    },
+    {
+      id:6,
+      title:"MemeGen",
+      description:"Meme generator website, gets random meme from top 100 popular memes which can be edited.",
+      image:"/projects/6.png",
+      tag: ["All", "Web"],
+      gitUrl: 'https://github.com/M1sm4tch/memegen',
+      previewUrl:'https://rand0m-memegen.netlify.app/'
+    },
 ]
 
 const ProjectSection = () => {
